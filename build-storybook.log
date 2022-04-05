@@ -1,0 +1,21 @@
+info @storybook/react v6.4.20
+info 
+info => Cleaning outputDir: C:\\Users\\user\\AppData\\Local\\Temp\\chromatic--20564-0bEHorUPdMBj
+(node:4672) DeprecationWarning: --static-dir CLI flag is deprecated, see:
+
+https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#deprecated---static-dir-cli-flag
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ERR! Error: No configuration files have been found in your configDir (C:\prjt\chromatic_1\node_modules\chromatic\.storybook).
+ERR! Storybook needs either a "main" or "config" file.
+ERR!     at validateConfigurationFiles (C:\prjt\chromatic_1\node_modules\chromatic\node_modules\@storybook\core-common\dist\cjs\utils\validate-configuration-files.js:50:11)
+ERR!     at loadCustomPresets (C:\prjt\chromatic_1\node_modules\chromatic\node_modules\@storybook\core-common\dist\cjs\utils\load-custom-presets.js:19:62)
+ERR!     at loadAllPresets (C:\prjt\chromatic_1\node_modules\chromatic\node_modules\@storybook\core-common\dist\cjs\presets.js:342:131)
+ERR!     at buildStaticStandalone (C:\prjt\chromatic_1\node_modules\chromatic\node_modules\@storybook\core-server\dist\cjs\build-static.js:97:48)
+ERR!     at async buildStatic (C:\prjt\chromatic_1\node_modules\chromatic\node_modules\@storybook\core-server\dist\cjs\build-static.js:195:5)
+ERR!  Error: No configuration files have been found in your configDir (C:\prjt\chromatic_1\node_modules\chromatic\.storybook).
+ERR! Storybook needs either a "main" or "config" file.
+ERR!     at validateConfigurationFiles (C:\prjt\chromatic_1\node_modules\chromatic\node_modules\@storybook\core-common\dist\cjs\utils\validate-configuration-files.js:50:11)
+ERR!     at loadCustomPresets (C:\prjt\chromatic_1\node_modules\chromatic\node_modules\@storybook\core-common\dist\cjs\utils\load-custom-presets.js:19:62)
+ERR!     at loadAllPresets (C:\prjt\chromatic_1\node_modules\chromatic\node_modules\@storybook\core-common\dist\cjs\presets.js:342:131)
+ERR!     at buildStaticStandalone (C:\prjt\chromatic_1\node_modules\chromatic\node_modules\@storybook\core-server\dist\cjs\build-static.js:97:48)
+ERR!     at async buildStatic (C:\prjt\chromatic_1\node_modules\chromatic\node_modules\@storybook\core-server\dist\cjs\build-static.js:195:5)
